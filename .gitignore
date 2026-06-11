@@ -1,3 +1,15 @@
+# Dependencies
 node_modules/
+
+# Build output (tsc + compiled Swift helper)
 build/
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS cruft
 .DS_Store
+.vscode/
+.idea/
